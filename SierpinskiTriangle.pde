@@ -43,7 +43,7 @@ public void draw()
 
   ellipse(width/2, height/2, 10, 10); 
   //triangle(width/2-150,height/2+150,width/2+150,height/2+150,width/2,height/2-150);
-  fill(255); 
+  //fill(255); 
   sierpinski(width/2-len/2, height/2+len/2, len); 
 
 
