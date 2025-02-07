@@ -2,6 +2,7 @@
 public void setup()
 {
   size(800, 700);
+  fill((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255)); 
   //noLoop();
 }
 int len = 500;
@@ -37,7 +38,7 @@ public void draw()
     //System.out.println(len+ ", decreasing");
   }
   background(100, 100, 100); 
-  fill((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255)); 
+ 
   //int len = (int)(Math.random()*100);
 
   ellipse(width/2, height/2, 10, 10); 
